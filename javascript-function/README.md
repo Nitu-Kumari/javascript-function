@@ -2,17 +2,25 @@
 function is a reusable block of code.
 
 How to function creation?
+~~~
+
 function greet() {
   console.log("Hello, World!");
 }
 
+~~~
+
+
 # Question
 Time to write your own function. Write a function that is called "sayMyName". Inside, write a console.log() statement that says "My name is Ada", but use your own name.
+~~~
 Ans
 function sayMyName(){
     console.log("nitu");
 }
 sayMyName();
+~~~
+
 
 
 # Question
@@ -21,12 +29,15 @@ Recall your sayMyName function from before. It should say "My name is Ada", but 
 Add a parameter to your function to allow it to use anyone's name
 Use string concatenation to append the name to the string "My name is ".
 return the new string.
+~~~
 
 ANS   
 function sayMyName(){
     return "My name is"+ name
 }
 sayMyName("nitu");
+~~~
+
 
 
 # Question
@@ -36,12 +47,13 @@ Write a function called formalGreeting that takes two parameters.
 The first parameter should be a string, name
 The next parameter should be a string, title
 return a string that is formatted like so: "My name is Rear Admiral Grace Hopper"
+~~~
 ANS
-
 function formalGreeting(name,title){
     return "My name is"+title+name
 }
 formalGreeting("Grace Hopper","Rear Admiral");
+~~~
 
 # The keyword arguments
 following behavior:
@@ -51,6 +63,7 @@ the keyword arguments is array-like, which means it has some functionality of an
 
 # Question
 What if you want your exponent to be 0? Rewrite the function so that it can take 0 as an exponent.
+~~~
 
 function power(base, exponent) {
   var exponent = exponent || 0;
@@ -61,6 +74,7 @@ function power(base, exponent) {
   return result;
 }
 console.log(result);
+~~~
 
 
 
